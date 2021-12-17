@@ -227,12 +227,12 @@ body {
 
 .banner-shape {
   position: absolute;
-  right: -250px;
-  top: -70px;
+  left: 950px;
+  bottom: 10px;
 }
 
 .banner-shape img {
-  width: 550px;
+  width: 450px;
 }
 
 .boost-left-sec {
@@ -245,13 +245,13 @@ body {
 
 .boost-left-child {
   position: absolute;
-  left: -200px;
-  top: -100px;
+  right: 250px;
+  bottom: 0px;
   z-index: -1;
 }
 
 .boost-left-child img {
-  width: 700px;
+  width: 550px;
 }
 
 .section-boost h1 {
@@ -320,24 +320,19 @@ body {
 
 .sec-monitor-child {
   position: absolute;
-  right: -60px;
+  left: 100px;
   top: 0;
   z-index: -1;
 }
 
-@media (max-width: 550px) {
+.sec-monitor-child img {
+  width: 650px;
+}
+
+@media (max-width: 414px) {
   .banner-sec {
     padding: 50px 20px 50px 20px;
     overflow: hidden;
-  }
-  .section-monitor {
-    margin-top: -50px !important;
-  }
-  .boost-left-child {
-    position: absolute;
-    left: 72px;
-    top: -50px;
-    z-index: -1;
   }
   .boost-left-child img {
     display: none !important;
@@ -501,12 +496,6 @@ body {
 .fadeinleft {
   opacity: 0;
   margin-left: -300px;
-  max-width: 100%;
-}
-
-.fadeinright {
-  opacity: 0;
-  margin-right: -300px;
   max-width: 100%;
 }
 
